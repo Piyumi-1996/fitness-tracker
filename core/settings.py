@@ -150,7 +150,9 @@ CORS_ALLOWED_ORIGINS = [
     "https://yourproject.lovable.dev",
 ]
 
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
-    "content-type",
     "authorization",
+    "content-type",
 ]
+CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
