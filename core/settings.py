@@ -147,7 +147,7 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     "https://fitness-tracker-1-lef7.onrender.com",
     "https://lovable.dev",
-    "https://yourproject.lovable.dev",
+    "https://fitness-tracker-1-lef7.lovable.dev",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
